@@ -35,7 +35,10 @@ namespace :swagger_ui do
           'jsoneditor.min.js',
           'object-assign-pollyfill.js',
           'swagger-oauth.js',
-          'base64.js'
+          'base64.js',
+          'aes.js',
+          'hmac-sha256.js',
+          'sha256.js'
         ].freeze
         javascript_files = Dir["#{root}/app/assets/javascripts/grape_swagger_rails/*.js"].map { |f|
           f.split('/').last

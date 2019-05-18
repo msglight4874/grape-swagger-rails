@@ -184,8 +184,7 @@
 .swagger-section .swagger-ui-wrap {
   line-height: 1;
   font-family: "Droid Sans", sans-serif;
-  min-width: 760px;
-  max-width: 960px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   /* JSONEditor specific styling */
@@ -245,7 +244,7 @@
   padding: 6px;
   font-size: 0.9em;
   border-bottom: 1px solid #cccccc;
-  vertical-align: top;
+  vertical-align: middle;
   line-height: 1.3em;
 }
 .swagger-section .swagger-ui-wrap ol {
@@ -513,7 +512,8 @@
   border: 1px solid #aaa;
 }
 .swagger-section .swagger-ui-wrap .markdown p code,
-.swagger-section .swagger-ui-wrap .markdown li code {
+.swagger-section .swagger-ui-wrap .markdown li code,
+.swagger-section .swagger-ui-wrap .markdown td code {
   font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
   background-color: #f0f0f0;
   color: black;
@@ -664,6 +664,8 @@
   border: 1px solid #e5e0c6;
   padding: 10px;
   margin: 0 0 10px 0;
+  width: 400px;
+  overflow: scroll;
 }
 .swagger-section .swagger-ui-wrap .markdown pre code {
   line-height: 1.6em;
